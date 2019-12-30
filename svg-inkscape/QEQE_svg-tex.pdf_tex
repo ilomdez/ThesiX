@@ -1,0 +1,108 @@
+%% Creator: Inkscape inkscape 0.92.3, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'QEQE_svg-tex.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{657.34902799bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.63539794)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{QEQE_svg-tex.pdf}}%
+    \put(0.06376037,0.61294891){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{100}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{QEQE_svg-tex.pdf}}%
+    \put(0.08058934,0.56060797){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{90}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{QEQE_svg-tex.pdf}}%
+    \put(0.08058934,0.50826703){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{80}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{QEQE_svg-tex.pdf}}%
+    \put(0.08058934,0.45592608){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{70}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{QEQE_svg-tex.pdf}}%
+    \put(0.08058934,0.40358514){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{60}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=6]{QEQE_svg-tex.pdf}}%
+    \put(0.08058934,0.3512442){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{50}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=7]{QEQE_svg-tex.pdf}}%
+    \put(0.08058934,0.29904587){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{40}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=8]{QEQE_svg-tex.pdf}}%
+    \put(0.08058934,0.24670493){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{30}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=9]{QEQE_svg-tex.pdf}}%
+    \put(0.08058934,0.19436398){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{20}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=10]{QEQE_svg-tex.pdf}}%
+    \put(0.08058934,0.14202304){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{10}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=11]{QEQE_svg-tex.pdf}}%
+    \put(0.09741831,0.0896821){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{0}\end{tabular}}}}%
+    \put(0.02211581,0.08825591){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{External Quantum Efficiency, }\end{tabular}}}}}%
+    \put(0.02211581,0.51554056){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{\textit{EQE}}\end{tabular}}}}}%
+    \put(0.02211581,0.58128763){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{ (%)}\end{tabular}}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=12]{QEQE_svg-tex.pdf}}%
+    \put(0.93387507,0.06315508){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{1800}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=13]{QEQE_svg-tex.pdf}}%
+    \put(0.82106394,0.06315508){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{1600}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=14]{QEQE_svg-tex.pdf}}%
+    \put(0.70839542,0.06315508){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{1400}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=15]{QEQE_svg-tex.pdf}}%
+    \put(0.59558429,0.06315508){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{1200}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=16]{QEQE_svg-tex.pdf}}%
+    \put(0.48291577,0.06315508){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{1000}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=17]{QEQE_svg-tex.pdf}}%
+    \put(0.37851912,0.06315508){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{800}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=18]{QEQE_svg-tex.pdf}}%
+    \put(0.26585061,0.06315508){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{600}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=19]{QEQE_svg-tex.pdf}}%
+    \put(0.15303947,0.06315508){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{400}\end{tabular}}}}%
+    \put(0.40632971,0.00639297){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{Wavelength, }\end{tabular}}}}%
+    \put(0.59216145,0.00639297){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{λ}\end{tabular}}}}%
+    \put(0.60899042,0.00639297){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{ (nm)}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=20]{QEQE_svg-tex.pdf}}%
+    \put(0.24032192,0.58356953){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l} GaInP\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=21]{QEQE_svg-tex.pdf}}%
+    \put(0.24032192,0.55319181){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l} Ga(In)As\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=22]{QEQE_svg-tex.pdf}}%
+    \put(0.24032192,0.5228141){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l} Ge\end{tabular}}}}%
+    \put(0.18156315,0.49243639){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l} \end{tabular}}}}%
+  \end{picture}%
+\endgroup%

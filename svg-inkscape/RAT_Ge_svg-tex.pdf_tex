@@ -1,0 +1,151 @@
+%% Creator: Inkscape inkscape 0.92.4, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'RAT_Ge_svg-tex.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{761.95166016bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.71666356)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{RAT_Ge_svg-tex.pdf}}%
+    \put(0.02860472,0.26683187){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}100\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{RAT_Ge_svg-tex.pdf}}%
+    \put(0.03955521,0.22389116){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}80\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{RAT_Ge_svg-tex.pdf}}%
+    \put(0.03955521,0.18095044){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}60\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{RAT_Ge_svg-tex.pdf}}%
+    \put(0.03955521,0.13813276){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}40\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{RAT_Ge_svg-tex.pdf}}%
+    \put(0.03955521,0.09519205){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}20\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=6]{RAT_Ge_svg-tex.pdf}}%
+    \put(0.05050571,0.05225133){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}0\end{tabular}}}}%
+    \put(0.01433216,0.03145769){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Internal Absorptivity, \end{tabular}}}}}%
+    \put(0.01433216,0.21257154){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{IAbs}\end{tabular}}}}}%
+    \put(0.01433216,0.25194412){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l} (%)\end{tabular}}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=7]{RAT_Ge_svg-tex.pdf}}%
+    \put(0.59433942,0.03293416){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}5000\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=8]{RAT_Ge_svg-tex.pdf}}%
+    \put(0.45751972,0.03293416){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}4000\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=9]{RAT_Ge_svg-tex.pdf}}%
+    \put(0.32057698,0.03293416){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}3000\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=10]{RAT_Ge_svg-tex.pdf}}%
+    \put(0.18375727,0.03293416){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}2000\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=11]{RAT_Ge_svg-tex.pdf}}%
+    \put(0.04693757,0.03293416){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}1000\end{tabular}}}}%
+    \put(0.2680392,0.00414296){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Wavelength, \end{tabular}}}}%
+    \put(0.38221967,0.00414296){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}λ\end{tabular}}}}%
+    \put(0.39206281,0.00414296){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l} (nm)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=12]{RAT_Ge_svg-tex.pdf}}%
+    \put(0.03955521,0.70251404){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}50\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=13]{RAT_Ge_svg-tex.pdf}}%
+    \put(0.03955521,0.65834293){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}40\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=14]{RAT_Ge_svg-tex.pdf}}%
+    \put(0.03955521,0.61404878){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}30\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=15]{RAT_Ge_svg-tex.pdf}}%
+    \put(0.03955521,0.56987767){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}20\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=16]{RAT_Ge_svg-tex.pdf}}%
+    \put(0.03955521,0.52558352){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}10\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=17]{RAT_Ge_svg-tex.pdf}}%
+    \put(0.05050571,0.48141241){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}0\end{tabular}}}}%
+    \put(0.01433216,0.5258296){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Transmittivity, \end{tabular}}}}}%
+    \put(0.01433216,0.65046841){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{T}\end{tabular}}}}}%
+    \put(0.01433216,0.66437186){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l} (%)\end{tabular}}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=18]{RAT_Ge_svg-tex.pdf}}%
+    \put(0.03955521,0.45582024){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}55\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=19]{RAT_Ge_svg-tex.pdf}}%
+    \put(0.03955521,0.42370698){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}50\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=20]{RAT_Ge_svg-tex.pdf}}%
+    \put(0.03955521,0.39171676){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}45\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=21]{RAT_Ge_svg-tex.pdf}}%
+    \put(0.03955521,0.35972655){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}40\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=22]{RAT_Ge_svg-tex.pdf}}%
+    \put(0.03955521,0.32773633){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}35\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=23]{RAT_Ge_svg-tex.pdf}}%
+    \put(0.03955521,0.29562307){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}30\end{tabular}}}}%
+    \put(0.01433216,0.31370985){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Reflectivity, \end{tabular}}}}}%
+    \put(0.01433216,0.41841629){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{R}\end{tabular}}}}}%
+    \put(0.01433216,0.43281189){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l} (%)\end{tabular}}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=24]{RAT_Ge_svg-tex.pdf}}%
+    \put(0.67579144,0.43576483){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l} \end{tabular}}}}%
+    \put(0.68083605,0.43576483){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{Doping}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=25]{RAT_Ge_svg-tex.pdf}}%
+    \put(0.77028562,0.43576483){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{Spectrophotometer}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=26]{RAT_Ge_svg-tex.pdf}}%
+    \put(0.95927399,0.43576483){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{FTIR}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=27]{RAT_Ge_svg-tex.pdf}}%
+    \put(0.67579144,0.40808099){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}10\end{tabular}}}}%
+    \put(0.69621596,0.42013884){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}15\end{tabular}}}}%
+    \put(0.71048852,0.40808099){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l} cm\end{tabular}}}}%
+    \put(0.74001796,0.42013884){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-3\end{tabular}}}}%
+    \put(0.81753272,0.40808099){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}   \end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=28]{RAT_Ge_svg-tex.pdf}}%
+    \put(0.67579144,0.38052019){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}10\end{tabular}}}}%
+    \put(0.69621596,0.39257804){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}16\end{tabular}}}}%
+    \put(0.71048852,0.38052019){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l} cm\end{tabular}}}}%
+    \put(0.74001796,0.39257804){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-3\end{tabular}}}}%
+    \put(0.81753272,0.38052019){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}   \end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=29]{RAT_Ge_svg-tex.pdf}}%
+    \put(0.67579144,0.35295938){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}10\end{tabular}}}}%
+    \put(0.69621596,0.36501724){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}17\end{tabular}}}}%
+    \put(0.71048852,0.35295938){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l} cm\end{tabular}}}}%
+    \put(0.74001796,0.36501724){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-3\end{tabular}}}}%
+    \put(0.81753272,0.35295938){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}   \end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=30]{RAT_Ge_svg-tex.pdf}}%
+    \put(0.9120269,0.35295938){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l} \end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=31]{RAT_Ge_svg-tex.pdf}}%
+    \put(0.67579144,0.32539858){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}10\end{tabular}}}}%
+    \put(0.69621596,0.33745643){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}18\end{tabular}}}}%
+    \put(0.71048852,0.32539858){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l} cm\end{tabular}}}}%
+    \put(0.74001796,0.33745643){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}-3\end{tabular}}}}%
+    \put(0.81753272,0.32539858){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}   \end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=32]{RAT_Ge_svg-tex.pdf}}%
+    \put(0.9120269,0.32539858){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l} \end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=33]{RAT_Ge_svg-tex.pdf}}%
+  \end{picture}%
+\endgroup%

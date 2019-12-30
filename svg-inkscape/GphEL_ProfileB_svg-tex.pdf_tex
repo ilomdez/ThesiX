@@ -1,0 +1,112 @@
+%% Creator: Inkscape inkscape 0.92.3, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'GphEL_ProfileB_svg-tex.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{590.40088589bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.49598078)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{GphEL_ProfileB_svg-tex.pdf}}%
+    \put(0.02983304,0.48388294){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{1.0}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{GphEL_ProfileB_svg-tex.pdf}}%
+    \put(0.02983304,0.44148592){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{0.9}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{GphEL_ProfileB_svg-tex.pdf}}%
+    \put(0.02983304,0.39908891){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{0.8}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{GphEL_ProfileB_svg-tex.pdf}}%
+    \put(0.02983304,0.3565331){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{0.7}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{GphEL_ProfileB_svg-tex.pdf}}%
+    \put(0.02983304,0.31413609){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{0.6}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=6]{GphEL_ProfileB_svg-tex.pdf}}%
+    \put(0.02983304,0.27173908){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{0.5}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=7]{GphEL_ProfileB_svg-tex.pdf}}%
+    \put(0.02983304,0.22934206){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{0.4}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=8]{GphEL_ProfileB_svg-tex.pdf}}%
+    \put(0.02983304,0.18694505){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{0.3}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=9]{GphEL_ProfileB_svg-tex.pdf}}%
+    \put(0.02983304,0.14438924){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{0.2}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=10]{GphEL_ProfileB_svg-tex.pdf}}%
+    \put(0.02983304,0.10199223){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{0.1}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=11]{GphEL_ProfileB_svg-tex.pdf}}%
+    \put(0.02983304,0.05959521){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{0.0}\end{tabular}}}}%
+    \put(0.01204853,0.04927384){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{Normalized Electroluminescence}\end{tabular}}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=12]{GphEL_ProfileB_svg-tex.pdf}}%
+    \put(0.96336131,0.04069917){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{1000}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=13]{GphEL_ProfileB_svg-tex.pdf}}%
+    \put(0.87761454,0.04069917){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{900}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=14]{GphEL_ProfileB_svg-tex.pdf}}%
+    \put(0.78726285,0.04069917){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{800}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=15]{GphEL_ProfileB_svg-tex.pdf}}%
+    \put(0.69675237,0.04069917){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{700}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=16]{GphEL_ProfileB_svg-tex.pdf}}%
+    \put(0.60640068,0.04069917){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{600}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=17]{GphEL_ProfileB_svg-tex.pdf}}%
+    \put(0.5158902,0.04069917){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{500}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=18]{GphEL_ProfileB_svg-tex.pdf}}%
+    \put(0.42537972,0.04069917){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{400}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=19]{GphEL_ProfileB_svg-tex.pdf}}%
+    \put(0.33502803,0.04069917){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{300}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=20]{GphEL_ProfileB_svg-tex.pdf}}%
+    \put(0.24451755,0.04069917){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{200}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=21]{GphEL_ProfileB_svg-tex.pdf}}%
+    \put(0.15416586,0.04069917){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{100}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=22]{GphEL_ProfileB_svg-tex.pdf}}%
+    \put(0.07302401,0.04069917){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{0}\end{tabular}}}}%
+    \put(0.48127391,0.00354223){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{Length (nm)}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=23]{GphEL_ProfileB_svg-tex.pdf}}%
+    \put(0.49211452,0.46214661){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{Busbar}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=24]{GphEL_ProfileB_svg-tex.pdf}}%
+    \put(0.42494304,0.2791133){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{Central Finger}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=25]{GphEL_ProfileB_svg-tex.pdf}}%
+    \put(0.15575376,0.16058586){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l} Without graphene\end{tabular}}}}%
+    \put(0.11923199,0.14168981){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l} \end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=26]{GphEL_ProfileB_svg-tex.pdf}}%
+    \put(0.15575376,0.12279376){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l} With graphene\end{tabular}}}}%
+  \end{picture}%
+\endgroup%

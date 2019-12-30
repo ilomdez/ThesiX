@@ -1,0 +1,42 @@
+\section{Cites}\label{sec:Elements_cites}
+\begin{enumerate}
+  \item Cita estándar:
+  
+  \verb=\cite{Aho2015b}= $\rightarrow$  \cite{Aho2015b}\\
+  
+  \item Cita comentada:
+  
+  \verb=\parencite[e.g.][page 300]{Hovel1997b}= $\rightarrow$ \parencite[e.g.][page 300]{Hovel1997b}
+\end{enumerate}
+
+\section{References}\label{sec:Elements_refs}
+
+\begin{enumerate}
+  \item Referencia a figura:
+  
+  \verb=\ref{fig:x svgsatement}= $\rightarrow$ \ref{fig:x svgsatement}
+  
+  \item Referencia a tabla:
+  
+  \verb=\ref{tab:tablestatement}= $\rightarrow$ \ref{tab:tablestatement}
+  
+  \item Equation reference:
+  
+  \verb=\ref{eq:someequation}= $\rightarrow$ \ref{eq:someequation}
+  
+  \item Equation reference with parenthesis:
+  
+  \verb=\eqref{eq:someequation}= $\rightarrow$ \eqref{eq:someequation}
+\end{enumerate}
+
+
+\section{Acronyms and symbols}\label{sec:Elements_acrosyms}
+\begin{enumerate}
+  \item Símbolo:
+  
+  \verb=\gls{symbol1}= $\rightarrow$ \gls{symbol1}
+
+  \item Acrónimo:
+
+  \verb=\gls{acronym1}= $\rightarrow$ \gls{acronym1}
+\end{enumerate}

@@ -1,0 +1,260 @@
+\chapter{Distributed Equivalent Circuits for Solar Cells Simulation}\label{ch:App_Distributed}
+Solar cell performance is a consequence of a set of physical processes: carrier generation/recombination, leakage currents, and resistive losses mainly. Generation and recombination processes are always present and dominate the \gls{iv} curve in the absence of any other process. When present, leakage currents dominate the low voltage range (of the shunted junction) and resistive losses dominate the high voltage one.
+
+These physical processes can be simulated using electrical circuits, where each device resembles a different physical process (see \tab\,\ref{tab:AppA_Devices}). Current sources emulate carrier collection (which is intimately related to the carrier photogeneration), while diodes simulate the recombination currents. They are usually split into recombination at the neutral regions and at the space charge region. Nevertheless, other generation/recombination processes could be considered, such as those ones taking place at the perimeter or at any interface inside the semiconductor structure. Moreover, different recombination processes (radiative, \gls{srh}, Auger\ldots) or reverse breakdown voltages\,\cite{Meusel2003,Barrigon2012} can be considered as well adding different types of diodes \cite{Espinet-Gonzalez2015}. Leakage currents and resistive losses are simulated using shunt resistances for the former and series ones for the latter (whether vertical or lateral). This is due to the fact that all resistive losses can be taken into account as ohmic losses in a \soa{} solar cell (ohmic contacts and tunnel junctions working on their ohmic regimes).
+
+However, the model presented does not consider several physical processes that could influence the performance under certain circumstances. Although they can be usually neglected for most solar cells, it might not be the case for all scenarios. First, it must be noticed that shunts with non\=/ohmic behaviour \cite{Breitenstein2012,Breitenstein2003} might influence the solar cell performance, although they are not common in \soa{} \iiiv{} solar cells. Second, independent current sources have been assumed although current/voltage\=/dependent ones could be considered to simulate field\=/aided collection or luminescence coupling between subcells in a multijunction. However, the field\=/aided collection is usually simplified by using an equivalent shunt instead. As long as only forward bias under illumination conditions are analyzed, the shunt will accomplish its function properly. Finally, capacitance effects due to variations in the space charge regions can be emulated with the help of capacitors. However, the main interest of such effect is related to material characterization techniques such as \gls{dlts}\,\cite{Ptak2003}, or the analysis of \gls{eqe} measurements taking phase effects into account\,\cite{Steiner2012}, being both applications out of the scope of the simulations carried out within the thesis. 
+
+%%%%%%%%%%%%%%%%
+\setlength{\extrarowheight}{0pt}
+\begin{table}[ht]
+	\centering
+	\small
+	\caption[Summary of the effects that can affect a solar cell and the corresponding devices to simulate it, together with a possible characterization technique to determine their values.]{Summary of the effects that can affect a solar cell and the corresponding devices to simulate them, together with a possible characterization technique to determine their values.}
+	\label{tab:AppA_Devices}
+	\begin{tabularx}{\textwidth}{ccX}
+	\toprule[\thicktopline]
+	\textbf{\makecell{Physical\\process}} &
+	\textbf{\makecell{Equivalent device in\\the electrical circuit}}\rule[-1em]{0pt}{2em} &
+	\textbf{\makecell{Characterization technique}}\\
+	\toprule[\thicktopline]
+	\\[-1em]
+	\makecell{Photocarrier\\collection} &
+	Current source &
+	\gls{eqe} for each subcell\\
+	\\[-1em]
+	\makecell{Carrier\\recombination} &
+	Diode &
+	Dark\,\gls{iv} fitting (different sizes are useful to pin down the influence of the perimeter). A cross\=/check with the \gls{voc} increases the reliability of the values obtained, although it is influenced by other parameters apart from the diodes (such as the photogeneration or the series resistance).\\
+	\\[-1em]
+	\makecell{Resistive\\losses} &
+	Series resistance & 
+	\gls{tlm} and \gls{vdp}\\
+	\\[-1em]
+	\makecell{Leakage\\currents} &
+	 Shunt resistance &
+	 Dark\,\gls{iv} fitting \\
+	 \\[-1em]
+	 Tunnelling &
+	 \makecell{Voltage\=/dependent\\resistor} &
+	 \gls{iv} of ad-hoc structures. The actual \gls{iv} curve of the tunnel junction can be implemented by means voltage\=/dependent resistor. Nevertheless, it usually can be considered that the tunnel junction will only operate on its ohmic regime, allowing to substitute the resistor by a standard resistance (boosting up the simulation). \\
+	 \\[-1em]\hdashline
+	 \\[-1em]
+	 \makecell{Breakdown\\voltage} &
+	 Zenner diode &
+	 Dark or illumination \gls{iv} curve fitting\\
+	 \\[-1em]
+	 \makecell{Field\=/aided\\collection} &
+	 \makecell{Dependent current source\\or\\Shunt resistance} &
+	 Illumination \gls{iv} and differences between the dark and illumination \gls{iv} can help to distinguish between a field\=/aided collection and a shunt.\\
+	 \\[-1em]
+	 \makecell{Luminescence\\coupling} &
+	 \makecell{Dependent \\ current source} &
+	 Illumination \gls{iv} or \gls{eqe} varying the optical bias\\
+	 \\[-1em]
+	 Capacitance &
+	 Capacitor &
+	 \gls{cv} or \gls{cvf}\\
+	\bottomrule[\thickbottomline]
+	\end{tabularx}
+\end{table}
+%%%%%%%%%%%%%%%%%%
+
+\section{Equivalent Models}
+Taking all the aforementioned physical processes into account leads to the very well\=/known unidimensional model for a single junction. One and two\=/dimensional models have been used to simulate solar cell performance since a long time ago \cite{Rey-Stolle2002} using mathematical simplifications to account for the grid spacing or the distance through the busbars to the wires. However, these models cannot resemble the actual performance of a given solar cell with non\=/homogeneous conditions, such as a metal grid in particular, perimeter recombination or non\=/homogeneous illumination profiles. \gls{3d} distributed circuits allow implementing such properties into the equivalent electric circuit. They have been widely used to simulate the solar cell performance, being their reliability extensively proved \cite{Galiana2006,Garcia2008,Espinet-Gonzalez2015,Espinet2011,EspinetGonzalez2012,GarciaVara2010}. Accordingly, \gls{3d} equivalent circuits are used to simulate the solar cell performance through this thesis. 
+
+The \gls{3d} equivalent circuit is based on the following approach. The area of the solar cell is divided into sufficiently small unit cells to achieve homogeneous conditions in each one of them (material properties, illumination intensity, spectral irradiance, current flow, etc.) as shown in \fig\,\ref{fig:AppA_Circuits}.\subref{fig:AppA_Grid}. Then, an electric circuit is assigned to each unit cell depending on its properties (active area, metallization or perimeter for instance) as shown in (\fig\,\ref{fig:AppA_Circuits}).\subref{fig:AppA_BaseCircuit}. Then, these unit cells are concatenated and connected to the contiguous ones correspondingly, making up the whole circuit. Finally, the connection between the busbar and the power source (or electric load) is simulated by standard series resistances connected to the busbar. 
+
+\begin{figure}
+	\hspace{0.025\textwidth}
+	\centering
+	\begin{subfigure}[t]{0.4\textwidth}
+        \centering
+		\raisebox{-\height}{\includegraphics[width=0.99\textwidth]{DistributerSize.pdf}}        
+        \raisebox{-\height}{\includegraphics[width=0.99\textwidth]{DistributerGrid.pdf}}
+        \caption{}
+        \label{fig:AppA_Grid}
+    \end{subfigure}
+	\begin{subfigure}[t]{0.45\textwidth}
+        \centering       
+         \raisebox{-\height}{\includegraphics[height=.95\textwidth]{SingleJunction.pdf}}
+        \caption{}		
+		\label{fig:AppA_BaseCircuit}
+    \end{subfigure}
+	\caption[Division of the solar cell area into unit cells and base electric circuit to simulate a \pn{} junction.]{Division of the solar cell area into unit cells and base electric circuit to simulate a \pn{} junction. \subref{fig:AppA_Grid}) top: actual size of the solar cell to be split into unit cells (only a fraction of the whole solar cell has been displayed), bottom: the same solar cell displayed at the top (not every unit cell has the same area), \subref{fig:AppA_BaseCircuit}) Basic solar cell circuit to simulate a \pn{} junction. The extra devices added to simulate a metalized, active, or perimeter area have been highlighted in blue, orange and green respectively.}
+    \label{fig:AppA_Circuits} 
+\end{figure}
+
+\section{Limitations due to discretization}
+\subsection{Unit cell shape}
+The shape of the unit cell and the distribution of the resistances inside impose how the lateral current flow can be emulated. The use of triangular unit cells (see \fig\,\ref{fig:AppA_UnitCells}.\subref{fig:AppA_TriangleUnitCell}) would intuitively appear as a valid solution to fulfil the whole surface area while allowing to fit almost any surface shape. However, the width of the unit cell perpendicular to the current flow will vary along with the resistance, which imposes a lateral current flow in all resistances. Moreover, the triangle unit cell does not allow for a straight current flow longer than two unit cells. In order to surpass such limitations, the area is divided into square unit cells with resistances going from the centre of the unit cell to the midpoint of each side (see \fig\,\ref{fig:AppA_UnitCells}.\subref{fig:AppA_SquareUnitCell}). Other possible solutions based on higher\=/order polygons would suffer from similar limitations as the ones mentioned for the triangle unit cell. Consequently, square unit cells are always used within this thesis work unless otherwise noticed.
+
+However, it must be pointed out that square unit cells cannot resemble any desired shape (unless using tiny unit cells, which would increase the number of unit cells and therefore, the computation time, see \sect\,\ref{subsec:AppA_ComputationTime}). Another limitation is that square unit cells limit the current flow to perpendicular directions, which could overestimate the current path (i.e. the voltage loss) when diagonal current flows are the optimum ones. Nevertheless, the current flow can be assumed to flow in perpendicular directions in standard metallization grids (comb\=/like and inverted square). The value associated with such resistances is usually the sheet resistance corresponding to the appropriate length of the resistance (half of the unit cell length, $R_{SH}/2$) \cite{Antonini2003,Galiana2005,Haas2014}. This intuitive value suits our purposes as the current flow is assumed to be perpendicular to the metal grid, limiting the current flow to vertical and horizontal directions (in comb\=/like or inverted square metal grids). However, this value ($R_{SH}/2$) might need to be reconsidered for solar cells with radial fingers or aesthetics form metal grids\,\cite{Gupta2016}.
+
+\begin{figure}[h]
+	\centering
+	\begin{subfigure}[t]{0.45\textwidth}
+        \centering       
+        \includegraphics[height=.6\textwidth]{TriangleUnitCell.pdf}
+        \caption{}
+        \label{fig:AppA_TriangleUnitCell}	
+    \end{subfigure}
+	\begin{subfigure}[t]{0.45\textwidth}
+        \centering   
+        \includegraphics[height=.55\textwidth]{SquareUnitCell.pdf}    
+        \caption{}
+        \label{fig:AppA_SquareUnitCell}
+    \end{subfigure}
+	\caption[Unit cells to divide the surface of a solar cell for the \gls{3d} distributed model.]{Unit cells to divide the surface of a solar cell for the \gls{3d} distributed model. \subref{fig:AppA_TriangleUnitCell}) Triangle unit cell, \subref{fig:AppA_SquareUnitCell}) Square unit cell.}
+    \label{fig:AppA_UnitCells} 
+\end{figure}
+
+\subsection{Illumination Profiles}
+In order to emulate the illumination impinging the solar cell, a current source for each subcell in all unit cells must be defined. When the whole solar cell is being homogeneously illuminated there is no problem as the same amount of current will always be generated no matter the size of the unit cells (the illuminated area and the illumination concentration are constant). However, under non\=/uniform illumination profiles, slight variations in the photogenerated current might appear if, for instance, there are changes in the size of the unit cells. This is a consequence of the area discretization, making the amount of current generated under a given profile a discrete function as well. Under such circumstances, it must be chosen whether the amount of light impinging the active area or the illumination profile is to be faithfully reproduced. The approach followed in this thesis is to fairly replicate the illumination profile and then multiply the current illumination impinging each unit cell by the ratio of the active area that should have been illuminated and the one actually being illuminated. That way, the deviation from the actual illumination profile is minimized (usually lower than 5\%) and the differences are homogeneously distributed throughout the whole illuminated surface. 
+
+\section{Electroluminescence simulation}
+\gls{el} simulations are carried using the reciprocity theorem \cite{Rau2007,Kirchartz2008,Geisz2015}. In order to do so, the voltage difference at the solar cell junction (i.e. diode nodes) is determined and use as input for \equ\,\eqref{eq:AppA_Reciprocity}.
+
+\begin{equation}\label{eq:AppA_Reciprocity}
+ \gls{el}(\lambda,V,T) = \gls{eqe}(\lambda)\cdot\phi_{BB}(\lambda,T)\cdot\Big(e^{\frac{qV}{kT}}-1\Big)
+\end{equation}
+
+If only \gls{el} intensity maps are simulated, the terms for the \gls{eqe} and the $\phi_{BB}$ can be neglected, obtaining an \gls{el} map in arbitrary units. Another approach to simplify the calculation is to measure the current going through the diode accounting for \textit{J\textsubscript{01}}, which ideally should follow the same voltage trend differing only in a constant factor (the reverse saturation current density).
+
+It should be noted that this procedure will simulate the \gls{el} without considering any absorption nor reflection at any layer or interface. This is of particular importance for the area metalized, where the simulated \gls{el} achieves a maximum (the voltage under the metallization is usually higher due to a lower series resistance) whereas there is no measured \gls{el} as the metal blocks all the emitted light. 
+
+\section{Standard model in this thesis}
+The standard model used in this thesis is a \gls{3jsc} made of \TJ{}. Common values for the device parameters \cite{EspinetGonzalez2012} have been used in the simulations unless otherwise noted (see \tab{}s\,\ref{tab:AppA_Param} and \ref{tab:AppA_MetalParam}). The equivalent circuits for the metal area, active area, and the perimeter are depicted in \fig\,\ref{fig:AppA_MJCircuits}.\subref{fig:AppA_MJCircuits_Met},\subref{fig:AppA_MJCircuits_Ill}, and \subref{fig:AppA_MJCircuits_Per} respectively. It should be mentioned that several simplifications can be applied to the model without affecting the results in most situations. First, for standard \gls{3jsc} the luminescence coupling can be neglected, although for ultimate devices it plays a key role in the solar cell performance. Second, tunnel junctions can usually be replaced by a series resistance as they will be working in their ohmic regime. Finally, the lateral resistances can be reduced to the ones in the metallization and in the window/emitter layers of the top subcell under illumination conditions. This is a direct consequence of the current generated in the subcells, avoiding lateral current flow in other layers apart from the top ones. This approach works for most scenarios, although differences can be found if the shadowing factor plays an important role in the tunnel junction performance\,\cite{Espinet2011} or if there is a noticeable chromatic aberration between subcells\,\cite{Garcia2011,Garcia2011a}. The lower number of lateral resistances could be even beneficial as a lower number of nodes per unit cell would allow increasing the number of unit cells without increasing the computation time and therefore, more accurate circuits could be simulated.
+
+\setlength{\extrarowheight}{10pt}
+%\abovetopsep (set to 0pt by default)
+\setlength{\belowrulesep}{0.1ex}
+%\setlength{\aboverulesep}{0.4ex}
+%\belowbottomsep (default 0pt).
+\begin{table}[h]
+	\centering
+	\caption[Standard parameters for the triple\=/junction solar cell (GaInP/Ga(In)As/Ge).]{Standard parameters for the triple\=/junction solar cell (GaInP/Ga(In)As/Ge). In any event, the parameters of any device in particular should be accurately determined to properly fit its performance.}
+	\label{tab:AppA_Param}
+	\begin{tabularx}{\textwidth}{Xccc}
+	\toprule[\thicktopline]
+	\vspace{-0.3cm}\textbf{Parameter} & \textbf{GaInP} & \textbf{Ga(In)As} & \textbf{Ge}\\
+	\toprule[\thicktopline]
+	\gls{j01} (A·cm\textsuperscript{-2}) & $9.5 \cdot 10^{-25}$ & $6 \cdot 10^{-20}$ & $2.5 \cdot 10^{-5}$\\
+	\gls{j02} (A·cm\textsuperscript{-2}) & $1 \cdot 10^{-13}$ & $1 \cdot 10^{-30}$ & $1 \cdot 10^{-30}$\\
+	\gls{j02p} (A·cm\textsuperscript{-2}) & $1 \cdot 10^{-30}$ & $8.5 \cdot 10^{-12}$ & $1 \cdot 10^{-30}$\\
+	\gls{jsc} without \gls{arc} at 1 \gls{suns} (mA·cm\textsuperscript{-2}) & 10.4 & 9.4 & 20.6\\
+	r\textsubscript{Emitter} (\unitssr) & 500 & 325 & 782\\
+	r\textsubscript{Base} (\unitsscr) & $7 \cdot 10^{-5}$ & $5 \cdot 10^{-5}$ & $2 \cdot 10^{-4}$\\
+	r\textsubscript{Shunt} (\unitsscr) & $10^{6}$ & $10^{6}$ & $10^{6}$\\
+	\bottomrule[\thickbottomline]
+	\end{tabularx}
+\end{table}
+\setlength{\belowrulesep}{0.65ex}
+
+\setlength{\extrarowheight}{7pt}
+\begin{table}[h]
+	\centering
+	\caption[Standard metallization properties]{Standard metallization properties}
+	\label{tab:AppA_MetalParam}
+	\begin{tabularx}{0.6\textwidth}{cc}
+	\toprule[\thicktopline]
+	 \makecell[c]{\textbf{Specific front} \\ \textbf{contact resistivity (\gls{sfcr})}} & \makecell[c]{\textbf{Metal sheet} \\ \textbf{resistance (\gls{msr})}}\\
+	\unitsscr & \unitssr\\
+	\toprule[\thicktopline]
+	$10^{-5}$ & $0.3$\\
+	\bottomrule[\thickbottomline]
+	\end{tabularx}
+\end{table}
+
+\begin{figure}
+	\hspace{0.025\textwidth}
+	\begin{subfigure}[b]{0.3\textwidth}
+        \centering       
+        \includegraphics[height=3.5\textwidth]{MetallizedSubCircuit.pdf}
+        \caption{}		
+		\label{fig:AppA_MJCircuits_Met}
+    \end{subfigure}
+	\begin{subfigure}[b]{0.3\textwidth}
+        \centering       
+        \includegraphics[height=3.5\textwidth]{IlluminatedSubCircuit.pdf}
+        \caption{}		
+		\label{fig:AppA_MJCircuits_Ill}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.3\textwidth}
+        \centering      
+        \includegraphics[height=3.5\textwidth]{IlluminatedPerimeterSubCircuit.pdf}
+        \caption{}		
+		\label{fig:AppA_MJCircuits_Per}  
+    \end{subfigure}
+	\caption[Equivalent circuits for the metal area, active area and the perimeter of a \gls{3jsc}.]{Equivalent circuits for the metal area (\subref{fig:AppA_MJCircuits_Met}), active area (\subref{fig:AppA_MJCircuits_Ill}) and the perimeter (\subref{fig:AppA_MJCircuits_Per}) of a \gls{3jsc}. The square current sources account for the luminescence coupling coming from the upper subcells which are usually modelled as a fraction of the photocurrent of the upper subcell \cite{Friedman2013a,Geisz2015}.}
+    \label{fig:AppA_MJCircuits} 
+\end{figure}
+
+\section{Solvers}
+Public and commercial circuit solvers began with the development of \gls{spice} in 1973 by Laurence Nagel. Since then, many open\=/source and proprietary software have been released, being most of them based on the initial \gls{spice}. The most important difference between solvers, at least to our concern, is the management of memory and the computation time to solve a circuit. Of course, there are many other capabilities, such as the parallelization of the circuit solver into different computers, that varies between circuit solvers.
+
+During this thesis, three different circuit solvers have been used: Silvaco SmartSpice\,\cite{SmartSpice2017}, Orcad\,\cite{Orcad} and Ngspice\,\cite{Ngspice30}. The first two ones are propietary code while the last one is an open\=/source software developed by its community. At the beginning of the thesis, circuits were solved with Orcad as it sufficed to solve all the needed circuits. Then, our group moved to SmartSpice to solve more complex circuits, although a non\=/free annual license is required for this software. Finally, simulations have been carried out with Ngspice, as it proved to be even more efficient than the old Orcad version (no comparison with up\=/to\=/date versions have been carried out) and no payment is required to use it. Cross\=/check tests have been carried out when changing the circuit solver obtaining similar results in all scenarios. It should be mentioned that the improvement regarding the computation power in standard computers has probably had a larger impact than the development of the circuit solver software (i.e. more RAM and better CPUs).   
+
+\section{Solver Limitations}\label{sec:Limitations}
+\subsection{Computation Time}\label{subsec:AppA_ComputationTime}
+The computation time needed to solve a circuit is intrinsically related to the number of nodes inside it (which depends on the number of unit cells and the complexity of the circuits used for each unit cell). This has a noticeable impact on the circuit design, as it could be profitable to avoid some devices to reduce the number of nodes (such as lateral resistors in a given layer) in exchange for a higher number of unit cells to increase the spatial accuracy. This is illustrated in \fig\,\ref{fig:AppA_ComputationTime} where the computation time for a triple\=/junction solar cell under illumination conditions using two different circuits is depicted. 
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.6\textwidth]{ComputationTime.pdf}        
+	\caption[Computation time (CPU and analysis) as a function of the number of nodes for two circuits with different complexity.]{Computation time as a function of the number of nodes for \textit{Complete} and \textit{Simplified} circuits with different complexity. A linear fit to the logarithm (\equ\,\ref{eq:AppA_Log2LinA}) of both axes has been carried out, obtaining: \textit{Complete}: $1.97 \cdot x-5.74$, \textit{Simplified}:$1.84 \cdot x-6.62$}
+    \label{fig:AppA_ComputationTime} 
+\end{figure}
+
+One circuit considers lateral resistances in all layers (\textit{Complete}) whereas the other one only considers lateral resistors in the emitter of the top subcell and in the metallization (\textit{Simplified}). The same area of the device is considered for all simulations and the number of unit cells is increased by dividing the surface into unit cells of equal size. In order to simplify the simulation and avoid effects related to the resolution, the whole surface is considered as a transparent electrode (avoiding most of the lateral current and homogenizing the conditions for all unit cells). Both circuits follow a similar trend, being limited by non-analysis tasks (file reading, building up the circuit, writing the output, etc.) for small circuits (low number of nodes) and by the analysis time for large circuits (high number of nodes). Consequently, both simulations last a similar amount of time for circuits smaller than 100 nodes while following a similar slope (but differing in an almost constant factor) for circuits larger than 1000 nodes. It is clearly seen that the logarithm of the computation time follows a linear trend with the logarithm of the total number of nodes for large circuits. This trend has been linearly fitted by:
+
+%%%%%%%%%%%%%%%%%%
+\begin{equation}\label{eq:AppA_Log2LinA}
+	\log_{10}y = a \cdot \log_{10}x + b
+\end{equation}
+%%%%%%%%%%%%%%%%%%
+
+and then converted to the useful data (computation time vs total number of nodes) using:
+
+%%%%%%%%%%%%%%%%%%
+\begin{equation}\label{eq:AppA_Log2LinB}
+	y = 10^{a \cdot \log_{10}x + b} = 10^{\log_{10}x^a} \cdot 10^{b} =10^{b} \cdot x^a
+\end{equation}
+%%%%%%%%%%%%%%%%%%
+
+Both fits are good with an $R^2$ higher than 0.999. $a$ equals 1.97 for the complete circuit and 1.84 for the simplified one, while $b$ equals -5.74 and -6.62, respectively. This means that increasing the complexity of the circuit affects the computation time in two ways. First, the analysis time becomes dominating sooner (lower $b$ in absolute value), reducing the number of unit cells that can be simulated in a given amount of time. Second, the dependence of the computation time on the total amount of nodes is slightly increased. Both parameters influence the computation time in a similar manner for standard circuit sizes (see \tab\,\ref{tab:AppA_ComputationTime}). The constant factor ($10^b$) multiply the computation time by a factor of 2.7 while the dependent factor ($x^a$) varies between 2.5 and 3.4 for small circuits (nodes between $10^3$ and $10^4$). Both factors will have a similar influence unless using extremely large circuits. If the constant factor should be responsible for less than 10\% of the total computation time, a circuit as large as $10^{11}$ nodes must be simulated which would run into memory problems in most computers. Therefore, we conclude that as a rule of thumb, both parameters have a similar influence on the computation time, whose increase is related to the square of the total number of nodes for large circuits. This also points out the benefits of simplifying the circuit design, allowing to speed up the simulations up to one order of magnitude in time.
+
+\setlength{\extrarowheight}{0pt}
+\begin{table}[h]
+	\centering
+	\caption[Sensitivity analysis of the linear fit to the computation time as a function of the total number of nodes inside a circuit.]{Sensitivity analysis of the linear fit (\equ\,\ref{eq:AppA_Log2LinB}) to the computation time as a function of the total number of nodes inside a circuit.}
+	\label{tab:AppA_ComputationTime}
+	\begin{tabularx}{.7\textwidth}{Xc}
+	\toprule[\thicktopline]
+	\textbf{Factor} & \textbf{Computation Time}\\
+	\\[\tablerowheight]
+	\toprule[\thicktopline]
+	Constant factor ($10^b$) & $10^{-5.74}/10^{-6.16}= 2.67$\\
+	\\[\tablerowheight]
+	Dependent factor ($x^a$): &\\
+	\\[\tablerowheight]
+	\,\,\,\,\,\,Nodes: $10^3$ & $(10^3)^{1.9676}/(10^3)^{1.8361} = 2.48$\\
+	\\[\tablerowheight]
+	\,\,\,\,\,\,Nodes: $10^4$ & $(10^4)^{1.9676}/(10^4)^{1.8361} = 3.36$\\
+	\\[\tablerowheight]
+	\,\,\,\,\,\,Nodes: $10^{11}$ & $(10^{11})^{1.9676}/(10^{11})^{1.8361} = 27.96$\\
+	\\[\tablerowheight]
+	\bottomrule[\thickbottomline]
+	\end{tabularx}
+\end{table}
+
+
+%\begin{figure}
+%	\centering
+%	\includegraphics[width=0.75\textwidth]{NodesToCellRatio.pdf}        
+%	\caption[Base electric circuit to simulate a solar cell and division of the solar cell area into unit cells.]{Base electric circuit to simulate a solar cell and division of the solar cell area into unit cells. \subref{fig:AppA_Grid}) top: actual size of the unit cells, bottom: solar cell area (top) divided into unit cells,  each unit cell has been plotted with the same area to ease the visualization, \subref{fig:AppA_BaseCircuit}) Base solar cell circuit with each of the particular devices for each circuit (metallization, active area and, perimeter) highlighted (blue, orange and green respectively).}
+%    \label{fig:AppA_NodesToCellRatio} 
+%\end{figure}
+
+\subsection{Numerical Precision}
+Numerical precision plays a key role when performing simulations by means of distributed equivalent circuits. All parameters and variables should be within the range of precision set for the simulation. The higher the spatial precision the better the accuracy but at the cost of longer computation times. However, the more accurate your circuit is (i.e. the smaller the smallest unit cell is) the higher the precision needs to be. This means that a circuit with unit cells too small could lead to erroneous results due to a lack of accuracy (the smallest unit cell used in our simulations is 1\,$\mu{}m^2$). This applies to the value of each parameter of each device, and the value of each variable (mainly current and voltage) at each point of the circuit. In order to avoid tedious reviewing processes, most solvers can set maximum and minimum limits which cannot be exceeded, which is a valid solution for most simulations.

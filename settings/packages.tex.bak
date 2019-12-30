@@ -1,0 +1,182 @@
+% Packages used in ThesiX
+%%-----------------------------------------------------------
+% Embebing Fonts
+% ¿Automatic in TexMaker? If you are using TeXStudio in Windows, Go to Options-> Configure TeXstudio->Commands->Ps2Pdf. In that field, just paste ps2pdf.exe -dPDFSETTINGS#/prepress -dEmbedAllFonts#true -dMaxSubsetPct#100 -dCompatibilityLevel#1.3 %.ps
+
+
+%%-----------------------------------------------------------
+% Debuging
+%\usepackage{showframe}
+%\usepackage{blindtext}
+%\listfiles
+
+
+%%------------------------------------------------------------
+% Metadata
+\usepackage[pdftex,hidelinks]{hyperref}
+\hypersetup{pdftitle=\thetitle{}, pdfauthor={\thesisauthor}}
+\hypersetup{pdfsubject={ThesiX LaTeX Template}}
+\hypersetup{pdfkeywords={LaTeX, Thesis, Template, ILH}}
+
+
+%%-----------------------------------------------------------
+% General packages about encoding and appeareance
+\usepackage[utf8]{inputenc}
+\usepackage[top=1.75cm,bottom=1.75cm,left=2.5cm,right=2.5cm,includeheadfoot,asymmetric]{geometry}
+\usepackage{newunicodechar}
+\newunicodechar{µ}{\ensuremath{\mu}}
+\newunicodechar{°}{º}
+%\newunicodechar{α}{\ensuremath{\alpha}} %Esto se puede utilizar para caracteres chungos si va mal junto con el newunicodechar - fontec y inputtec de arriba , para los % quizas--
+\usepackage{eurosym}
+\usepackage{indentfirst}
+\usepackage{enumitem}
+\usepackage{amsmath}
+\usepackage{amssymb} %Careful with the font loaded!! If it has already loaded the symmbols it may stop working
+\usepackage{multirow}
+%\usepackage{multicol}
+\usepackage[shortcuts]{extdash} % unbreakable hyphen - dash
+%\usepackage{xparse} %newcommand and newenvironment with multiple optional arguments
+\usepackage{verbatim}
+\usepackage{listings}
+\usepackage{pdfpages}
+
+
+%%------------------------------------------------------------
+% Titles, chapters, headers, etc.
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+\titleformat{name=\chapter,numberless}
+	{\filcenter\normalfont\huge\bfseries}{}{20pt}{\Huge}[\vspace{0.0ex}\titlerule]
+%
+\titleformat{name=\chapter}[display]
+	{\Huge\rm\filcenter}
+	{\titlerule[2pt]%
+	\vspace{-3pt}%
+	\titlerule
+	\vspace{1pc}%
+	\Huge\rm\bfseries\MakeUppercase{\chaptertitlename} \Huge\rm\bfseries\MakeUppercase{\thechapter}}
+	{1pc}
+	{\titlerule
+	\vspace{1pc}%
+	\Huge}
+%
+\titleformat*{\subsubsection}{\large\itshape} % Definition of subsubsection style
+\setcounter{secnumdepth}{3} % Depth of sections numbering - 3 =subsubsections
+\setcounter{tocdepth}{2} %Depth of table of content - 2 =subsections
+
+
+%%------------------------------------------------------------
+% REFERENCES & GLOSSARIES
+\usepackage{bookmark} % allows to set bookmarks manually, useful for abstract etc
+\usepackage{cleveref} % for subfigures references and more
+\usepackage{nameref}  % to reference section names
+\newcommand{\itnameref}[1]{\textit{\nameref{#1}}} % reference section name in italics
+\newcommand{\quitnameref}[1]{``\textit{\nameref{#1}}''} % reference section name in italics and quotation mars
+\usepackage{tocbibind}
+\usepackage[toc, acronym,  section=chapter, automake=immediate]{glossaries}  %sort=def hace que super no pueda separar por grupos de palabras
+% sanitizesort=false hace que pase del \textit{•} y cosas de esas y organice directamente por lo que ve dentro aunque según he leido ralentiza bastante - guia page 15
+\makeglossaries
+\usepackage[style=alphabetic, backend=biber, sorting=nyt, defernumbers=true, maxbibnames=99]{biblatex}
+\addbibresource{C:/Users/ilh/Documents/Bibtex/ThesisRef.bib}
+%\usepackage[hyphenbreaks]{breakurl}
+%\usepackage{csquotes}
+%
+\DefineBibliographyStrings{english}{%
+  bibliography={References},
+}
+\defbibheading{secbib}[\bibname]{%
+  \section*{#1}%
+  \markboth{#1}{#1}
+}
+%
+\defbibenvironment{bibliographyNUM}
+  {\list
+     {\printtext[labelnumberwidth]{%
+        \printfield{prefixnumber}%
+        \printfield{labelnumber}}}
+     {\setlength{\labelwidth}{\labelnumberwidth}%
+      \setlength{\leftmargin}{\labelwidth}%
+      \setlength{\labelsep}{\biblabelsep}%
+      \addtolength{\leftmargin}{\labelsep}%
+      \setlength{\itemsep}{\bibitemsep}%
+      \setlength{\parsep}{\bibparsep}}%
+      \renewcommand*{\makelabel}[1]{\hss##1}}
+  {\endlist}
+  {\item}
+
+
+%%------------------------------------------------------------
+% IMAGES
+\usepackage{float} % Useful for tables as well
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
+\captionsetup{labelfont=bf,justification=justified,font=footnotesize}
+%\usepackage{wrapfig}
+%\DeclareCaptionLabelFormat{ProcessNum}{#2)} % It works, but does the same as the already defined package brace
+\graphicspath{
+{./images/}
+{./images/Title/}
+{./images/Cover/}
+{./images/Intro/}
+{./images/DN/}
+	{./images/DN/DN_Review/}
+	{./images/DN/GaNAsSb/}
+	{./images/DN/GaInNAs/}
+	{./images/DN/GaInNAsSb/}
+	{./images/DN/Comparison/}
+{./images/MJ/}
+	{./images/MJ/MJ_1J/}
+	{./images/MJ/MJ_2J/}
+	{./images/MJ/MJ_4J/}
+	{./images/MJ/MS_process/}
+	{./images/MJ/MS_process/Compressed/}
+	{./images/MJ/MS/}
+{./images/Ge/}
+	{./images/Ge/FCA/}
+	{./images/Ge/Sims/}
+	{./images/Ge/Thinning/}
+	{./images/Ge/SolarCells/}
+	{./images/Ge/UltraThinnedSC/}
+{./images/NewArch/}
+	{./images/NewArch/Gph/}
+	{./images/NewArch/AuVsPd/}
+	{./images/NewArch/Alchemi/}
+	{./images/NewArch/FhG/}
+	{./images/NewArch/Leak/}
+{./images/Distributer/}
+{./images/Atlas/}
+}
+\usepackage{svg}
+%\setsvg{inkscape={C:/"Program Files"/Inkscape/inkscape.exe -z -D}}
+%\usepackage[inkscapeexe=C:/Program~Files/Inkscape/inscape.exe]{svg}
+\svgpath{{./images/}{./images/cover/}{./images/chapter1/}{./images/chapter2/}{./images/chapter3/}{./images/chapter4/}{./images/chapter5/}{./images/title/}}
+
+%\def\eattif#1.tif{#1}
+%\DeclareGraphicsRule{.tif}{png}{.png}{`convert #1 \eattif#1-tif-converted-to.png }
+\usepackage{epstopdf}
+\epstopdfDeclareGraphicsRule{.tif}{png}{.png}{convert #1 \OutputFile}
+\AppendGraphicsExtensions{.tif}
+%%-------------------------------------------------------------
+% TABLES
+\usepackage{tabularx}
+\renewcommand\tabularxcolumn[1]{m{#1}}% for vertical centering text in X column - Not working always somehow
+\newcolumntype{Y}{>{\centering\arraybackslash}X} % same as X but horizontally allinged
+%\newcolumntype{M}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}X}
+%\newcolumntype{N}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}Y}
+\newcolumntype{M}{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{.5cm}}
+\usepackage{makecell} %group words
+\usepackage{booktabs}
+
+\usepackage{array}
+\newcolumntype{n}{>{\centering\arraybackslash}m} % same as m but horizontally allinged
+\usepackage{arydshln} % dash lines
+%\renewcommand{\arraystretch}{0.5}
+%\usepackage{cellspace} % It is supossed to fix a minimumspace in tables, not working for some reason
+%\setlength\cellspacetoplimit{5pt}
+%\setlength\cellspacebottomlimit{5pt}
+%%------------------------------------------------------------
+\hyphenation{
+Ga-In-N-As-Sb
+GaInP-GaAs-Ge
+}

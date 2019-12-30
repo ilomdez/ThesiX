@@ -1,0 +1,116 @@
+%% Creator: Inkscape inkscape 0.92.4, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'Simu_EL_Profile_svg-tex.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{585.16186594bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.49907931)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{Simu_EL_Profile_svg-tex.pdf}}%
+    \put(0.06483602,0.43558){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{0.60}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{Simu_EL_Profile_svg-tex.pdf}}%
+    \put(0.06483602,0.35643538){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{0.50}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{Simu_EL_Profile_svg-tex.pdf}}%
+    \put(0.06483602,0.27729076){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{0.40}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{Simu_EL_Profile_svg-tex.pdf}}%
+    \put(0.06483602,0.19814614){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{0.30}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{Simu_EL_Profile_svg-tex.pdf}}%
+    \put(0.06483602,0.11900152){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{0.20}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=6]{Simu_EL_Profile_svg-tex.pdf}}%
+    \put(0.01949608,0.07318095){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{Normalized Electroluminescence}\end{tabular}}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=7]{Simu_EL_Profile_svg-tex.pdf}}%
+    \put(0.94071382,0.05539745){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{1000}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=8]{Simu_EL_Profile_svg-tex.pdf}}%
+    \put(0.77922034,0.05539745){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{800}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=9]{Simu_EL_Profile_svg-tex.pdf}}%
+    \put(0.6100367,0.05539745){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{600}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=10]{Simu_EL_Profile_svg-tex.pdf}}%
+    \put(0.44085307,0.05539745){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{400}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=11]{Simu_EL_Profile_svg-tex.pdf}}%
+    \put(0.27166943,0.05539745){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{200}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=12]{Simu_EL_Profile_svg-tex.pdf}}%
+    \put(0.1177059,0.05539745){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{0}\end{tabular}}}}%
+    \put(0.47001161,0.0057318){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{Length (nm)}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=13]{Simu_EL_Profile_svg-tex.pdf}}%
+    \put(0.61836772,0.40385807){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Specific contact resistance\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=14]{Simu_EL_Profile_svg-tex.pdf}}%
+    \put(0.62589767,0.37822418){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l} graphene-AlInP (\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=15]{Simu_EL_Profile_svg-tex.pdf}}%
+    \put(0.75855302,0.37822418){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Ω\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=16]{Simu_EL_Profile_svg-tex.pdf}}%
+    \put(0.77120976,0.37822418){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}·cm\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=17]{Simu_EL_Profile_svg-tex.pdf}}%
+    \put(0.79956724,0.38959922){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}2\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=18]{Simu_EL_Profile_svg-tex.pdf}}%
+    \put(0.80613592,0.37822418){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l})\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=19]{Simu_EL_Profile_svg-tex.pdf}}%
+    \put(0.71241203,0.35243009){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{ 1·10}\end{tabular}}}}%
+    \put(0.75118328,0.36396534){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{-5}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=20]{Simu_EL_Profile_svg-tex.pdf}}%
+    \put(0.71257224,0.32663599){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{ 1·10}\end{tabular}}}}%
+    \put(0.75134349,0.33817124){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{-3}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=21]{Simu_EL_Profile_svg-tex.pdf}}%
+    \put(0.71257224,0.30084189){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{ 5·10}\end{tabular}}}}%
+    \put(0.75134349,0.31237714){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{-3}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=22]{Simu_EL_Profile_svg-tex.pdf}}%
+    \put(0.71257224,0.2750478){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{ 1·10}\end{tabular}}}}%
+    \put(0.75134349,0.28658305){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{-2}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=23]{Simu_EL_Profile_svg-tex.pdf}}%
+    \put(0.71257224,0.2492537){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{ 5·10}\end{tabular}}}}%
+    \put(0.75134349,0.26078895){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{-2}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=24]{Simu_EL_Profile_svg-tex.pdf}}%
+    \put(0.71449479,0.2234596){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{ 1·10}\end{tabular}}}}%
+    \put(0.75326604,0.23499485){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{0}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=25]{Simu_EL_Profile_svg-tex.pdf}}%
+    \put(0.66595062,0.2043944){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textit{ Without Graphene}\end{tabular}}}}%
+    \put(0.5147107,0.46057304){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{Busbar}\end{tabular}}}}%
+    \put(0.38333704,0.37405868){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{Central Finger}\end{tabular}}}}%
+  \end{picture}%
+\endgroup%
