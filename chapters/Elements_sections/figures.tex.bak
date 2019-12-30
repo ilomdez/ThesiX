@@ -1,0 +1,42 @@
+\section{Figures}\label{sec:Elements_figures}
+%\begin{figure}[ht]
+%\centering
+%\includesvg[scale=0.5]{svgimage}
+%\caption{A svg image example}
+%\label{fig:x cubedvv graph}
+%\end{figure}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=.5\textwidth]{Intro_TexMakerConf.png}
+\caption[Resume line]{An example graph}
+\label{fig:x cubed graph}
+\end{figure}
+
+
+\begin{figure}
+    \centering
+    \begin{subfigure}[b]{.3\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{Intro_TexMakerConf.png}
+        \caption{$y=x$}
+        \label{fig:x}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.3\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{Intro_TexMakerConf.png}
+        \caption{$y=3sinx$}
+        \label{fig:3sinx}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.3\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{Intro_TexMakerConf.png}
+        \caption{$y=5/x$}
+        \label{fig:5overx}
+    \end{subfigure}
+    \caption[Resume line]{Three simple graphs}
+    \label{fig:three_graphs}
+\end{figure}
+in \ref{fig:x cubed graph} 

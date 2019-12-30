@@ -1,0 +1,12 @@
+\section{About \textit{ThesiX}}
+\ThesiX{} was created during the redaction of my Ph.D. thesis. I found it difficult to find a \LaTeX{} template that eases the template build up while being easily extensible and customizable. Although there are some good works available, all of them fail to provide an out of the box template, easy to understand and modify without strong design constraints. My purpose is that this template will be use as the basis of any other work, modifying this template as necessary. Even if it is design to work as it is, all users are highly encourage to learn at least a basic \LaTeX{} and improve the template.
+
+The latest template release is available at https://github.com/ilomdez/ThesiX for use under license GPL-3.0. It would be highly appreciated if the user thank the template availability explicitly stating in their document so, for instance by the use of the defined command ``\textbackslash{}ThankThesiX'' or with any other sentence that fits better the user while maintaining the same meaning and explicitly staying the repository webpage and the \ThesiX{} author name.:\\
+
+	\ThankThesiX{}\\
+
+\ThesiX{} is its own manual and example, which means that the manual has been built using the \ThesiX{} template. If the files are compiled as downloaded the output file will be this very same manual. Accordingly, several examples of all that can be achieved with \ThesiX{} has been exemplified in the manual, so that every user can easily get examples of how to achieve most usual figures, tables or layouts in a thesis document.
+
+I just would like to finish remembering that this is NOT a \LaTeX{} manual and that every user is encourage to learn at least the basis by themselves. This is easily accomplished given the tremendous amount of information and tutorials available on-line. The \LaTeX{} community has made an incredible effort during the last years so that everyone can learn on their own. In any case, \ThesiX{} is built to be used by non\=/\LaTeX{} users straightforward.
+
+Any requirement or suggestion should be requested at the Github webpage or my LinkedIn personal webpage (https://www.linkedin.com/in/ilomdez/). In any case, \ThesiX{} is an ongoing work which is carried out in my free-time and accordingly, its extension, readability, number of examples or level of detail will be improved when possible. Nevertheless, the \LaTeX{} template is fully functioning and the main remaining work is to finish the manual.

@@ -1,0 +1,64 @@
+\begin{titlepage}
+   \begin{center}
+   		%\fontsize{16}{16}\selectfont\textbf{\universidadupper}
+		%\fontsize{16}{16}\selectfont
+		\begin{LARGE}
+		\textbf{\institute}
+		\end{LARGE}
+		
+ 		\begin{normalsize}
+ 		\departament
+ 		\end{normalsize}
+		
+		\vspace*{2.5cm}
+		
+		\begin{normalsize}
+		\school
+ 		\end{normalsize}
+% 		\begin{small}
+%		\escuelaupper
+% 		\end{small}		
+		\vspace*{0.5cm}
+ 		
+ 		\includegraphics[scale=0.4]{LOGO_ESCUELA.pdf}
+		
+		\vspace*{\fill}
+		
+		\begin{Huge}
+		\thetitle
+		\end{Huge}
+
+		
+		\vspace{2.5cm}
+		
+		\begin{table}[h]
+		\LARGE
+		\centering
+		\begin{tabular}{l  l}
+		
+		\textbf{Autor:} & \thesisauthor \\
+		 & \authordegree \\
+		 & \\
+		\if\iscodiretor0
+		\textbf{Director:} & \thesisdirector \\
+		\else
+		\textbf{Directores:} & \thesisdirector \\
+		\fi
+		 				   & \thesisdirectortitle \\ 
+						   \if\iscodiretor1						   
+						   &  \thesiscodirector \\
+						   & \thesiscodirectortitle \\
+						   \fi
+		\end{tabular}
+		\label{tab:SecondTitle}
+		\end{table}
+				
+		\vspace{1.5cm}
+		
+		\begin{LARGE}
+		\publicationyear
+		\end{LARGE}			
+				
+   \end{center}
+\end{titlepage}
+\newpage

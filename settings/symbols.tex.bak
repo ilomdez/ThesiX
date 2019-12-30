@@ -1,0 +1,59 @@
+% Symbols definitions
+%
+% A
+\newglossaryentry{symbol1}{name={\textit{S\textsubscript{1}}}, description={Symbol example 1}}
+\newglossaryentry{symbol2}{name={\textit{S\textsubscript{2}}}, description={Symbol example 2}}
+\newglossaryentry{alpha_int}{name={$\alpha_int$}, description={Intrinsic Absorption coefficient}}
+%
+% B
+\newglossaryentry{b_symbol}{name={B\textsuperscript{5}}, description={B example of symbol}}
+%
+% C
+\newglossaryentry{c_symbol}{name={C\textsubscript{t}}, description={C example of symbol}}
+%
+%
+% D
+%
+% E
+%
+% F
+%
+% G
+%
+% H
+%
+% I
+%
+% J
+%
+% K
+%
+% L
+%
+% M
+%
+% N
+%
+% O
+%
+% P
+%
+% Q
+%
+% R
+%
+% S
+%
+% T
+%
+% U
+%
+% V
+%
+% W
+%
+% X
+%
+% Y
+%
+% Z

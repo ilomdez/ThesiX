@@ -1,0 +1,126 @@
+\chapter{Ensure compilation chapter}\label{ch:Compilation}
+\begin{chapter_resume}
+This chapter puprpose is to ensure the correct compilation of the \LaTeX
+\vspace{0.7cm}
+
+Pues eso, al lío
+\end{chapter_resume}
+
+
+\section{One of each}
+We are going to define at least on of each of all the possible elements in order to ensure that everything is working properly.
+
+
+\subsection{Acronyms and symbols}
+\gls{voc} and \gls{isc} are symbols
+\gls{long} and \gls{eqe} are acronyms
+
+
+\subsection{Figure}
+
+\begin{figure}[ht]
+\centering
+\includegraphics[scale=0.5]{ace.png}
+\caption{An example graph}
+\label{fig:F0X_cubedgraph}
+\end{figure}
+
+\begin{figure}
+    \centering
+    \begin{subfigure}[b]{0.3\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{ace.png}
+        \caption{$y=x$}
+        \label{fig:F0X_threegraphs_A}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.3\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{ace.png}
+        \caption{$y=3sinx$}
+        \label{fig:F0X_threegraphs_B}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.3\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{ace.png}
+        \caption{$y=5/x$}
+        \label{fig:F0X_threegraphs_C}
+    \end{subfigure}
+    \caption{Three simple graphs}
+    \label{fig:F0X_threegraphs}
+\end{figure}
+
+\begin{figure}[ht]
+\centering
+\includesvg[scale=0.5]{svgimage}
+\caption{A svg image example}
+\label{fig:F0X_svg}
+\end{figure}
+
+
+
+\subsection{Table}
+
+
+\begin{table}[ht]
+\centering
+\begin{tabular}{l | l | l}
+A & B & C \\
+\hline
+1 & 2 & 3 \\
+4 & 5 & 6
+\end{tabular}
+\caption{very basic table}
+\label{tab:T0X_abc}
+\end{table}
+
+
+\begin{table}[ht]
+    \begin{subtable}[h]{0.45\textwidth}
+        \centering
+        \begin{tabular}{l | l | l}
+        Day & Max Temp & Min Temp \\
+        \hline \hline
+        Mon & 20 & 13\\
+        Tue & 22 & 14\\
+        Wed & 23 & 12\\
+        Thurs & 25 & 13\\
+        Fri & 18 & 7\\
+        Sat & 15 & 13\\
+        Sun & 20 & 13
+        \end{tabular}
+        \caption{First Week}
+        \label{tab:T0X_week1}
+    \end{subtable}
+    \hfill
+    \begin{subtable}[h]{0.45\textwidth}
+        \centering
+        \begin{tabular}{l | c | c}
+        Day & Max Temp & Min Temp \\
+        \hline \hline
+        Mon & 17 & 11\\
+        Tue & 16 & 10\\
+        Wed & 14 & 8\\
+        Thurs & 12 & 5\\
+        Fri & 15 & 7\\
+        Sat & 16 & 12\\
+        Sun & 15 & 9
+        \end{tabular}
+        \caption{Second Week}
+        \label{tab:T0X_week2}
+    \end{subtable}
+    \caption{Max and min temps recorded in the first two weeks of July}
+    \label{tab:T0X_week}
+\end{table}
+\subsection{cites and figure references}
+Here are different cites \cite{Geisz2015} \ref{fig:F0X_cubedgraph} and \ref{ch:Compilation}
+\ref{fig:F0X_threegraphs}
+\ref{fig:F0X_threegraphs_A}
+\ref{fig:F0X_threegraphs_B}
+\ref{fig:F0X_threegraphs_C}
+\ref{fig:F0X_svg}
+\ref{tab:T0X_abc}
+\ref{tab:T0X_week}
+\ref{tab:T0X_week1}
+\ref{tab:T0X_week2}

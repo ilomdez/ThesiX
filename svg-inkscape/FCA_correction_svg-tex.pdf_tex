@@ -1,0 +1,113 @@
+%% Creator: Inkscape inkscape 0.92.3, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'FCA_correction_svg-tex.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{364.11178934bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.84741009)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{FCA_correction_svg-tex.pdf}}%
+    \put(0.06912594,0.82187177){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{1.0}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{FCA_correction_svg-tex.pdf}}%
+    \put(0.06912594,0.68000291){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{0.8}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{FCA_correction_svg-tex.pdf}}%
+    \put(0.06912594,0.53813406){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{0.6}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{FCA_correction_svg-tex.pdf}}%
+    \put(0.06912594,0.39600773){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{0.4}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{FCA_correction_svg-tex.pdf}}%
+    \put(0.06912594,0.25413887){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{0.2}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=6]{FCA_correction_svg-tex.pdf}}%
+    \put(0.06912594,0.11227002){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{0.0}\end{tabular}}}}%
+    \put(0.0279299,0.27267709){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{f(}\end{tabular}}}}}%
+    \put(0.0279299,0.29842461){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{λ}\end{tabular}}}}}%
+    \put(0.0279299,0.31979506){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{) = }\end{tabular}}}}}%
+    \put(0.0279299,0.37618213){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{α}\end{tabular}}}}}%
+    \put(0.03719901,0.39986985){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{e}\end{tabular}}}}}%
+    \put(0.02355282,0.41480342){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{-}\end{tabular}}}}}%
+    \put(0.03719901,0.4191805){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{-h}\end{tabular}}}}}%
+    \put(0.02355282,0.44467055){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{+}\end{tabular}}}}}%
+    \put(0.0279299,0.4523948){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{/(}\end{tabular}}}}}%
+    \put(0.0279299,0.47582505){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{α}\end{tabular}}}}}%
+    \put(0.03719901,0.49951277){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{e}\end{tabular}}}}}%
+    \put(0.02355282,0.51444633){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{-}\end{tabular}}}}}%
+    \put(0.03719901,0.51882341){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{-h}\end{tabular}}}}}%
+    \put(0.02355282,0.54431346){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{+}\end{tabular}}}}}%
+    \put(0.0279299,0.55203772){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{ + }\end{tabular}}}}}%
+    \put(0.0279299,0.59555103){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{α}\end{tabular}}}}}%
+    \put(0.03719901,0.61923876){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{FCA}\end{tabular}}}}}%
+    \put(0.0279299,0.67330856){\color[rgb]{0,0,0}\rotatebox{90}{\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{)}\end{tabular}}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=7]{FCA_correction_svg-tex.pdf}}%
+    \put(0.92265635,0.05923012){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{2000}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=8]{FCA_correction_svg-tex.pdf}}%
+    \put(0.69041369,0.05923012){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{1800}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=9]{FCA_correction_svg-tex.pdf}}%
+    \put(0.45791355,0.05923012){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{1600}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=10]{FCA_correction_svg-tex.pdf}}%
+    \put(0.22567088,0.05923012){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{1400}\end{tabular}}}}%
+    \put(0.39405969,0.00747759){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{Wavelength, }\end{tabular}}}}%
+    \put(0.61085384,0.00747759){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{λ}\end{tabular}}}}%
+    \put(0.63067943,0.00747759){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{ (nm)}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=11]{FCA_correction_svg-tex.pdf}}%
+    \put(0.23416757,0.40167218){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{Ge p doping level}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=12]{FCA_correction_svg-tex.pdf}}%
+    \put(0.35878558,0.35249441){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l} 10\end{tabular}}}}%
+    \put(0.40461617,0.37437981){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}15\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=13]{FCA_correction_svg-tex.pdf}}%
+    \put(0.35878558,0.30280169){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l} 10\end{tabular}}}}%
+    \put(0.40461617,0.32468709){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}16\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=14]{FCA_correction_svg-tex.pdf}}%
+    \put(0.35878558,0.25310897){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l} 10\end{tabular}}}}%
+    \put(0.40461617,0.27499436){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}17\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=15]{FCA_correction_svg-tex.pdf}}%
+    \put(0.35492345,0.20341625){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l} 10\end{tabular}}}}%
+    \put(0.40075405,0.22530164){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}18\end{tabular}}}}%
+    \put(0.42650157,0.20341625){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l} \end{tabular}}}}%
+  \end{picture}%
+\endgroup%

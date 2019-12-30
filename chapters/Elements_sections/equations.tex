@@ -1,0 +1,35 @@
+\section{Equations}\label{sec:Elements_equations}
+Ecuaciones:
+
+\begin{enumerate}
+
+\item In-line equation:
+
+This is \lstinline"$E=mc^2$" in-line $\rightarrow$ This is $E=mc^2$ in-line
+
+This is \lstinline"$\frac{\frac{1}{x}+\frac{1}{y}}{y-z}$" as well $\rightarrow$ This is $\frac{\frac{1}{x}+\frac{1}{y}}{y-z}$ as well\\
+
+\item Numbered equation:
+
+\begin{lstlisting}
+\begin{equation}\label{eq:someequation}
+\sqrt[n]{1+x+x^2+x^3+\dots+x^n}
+\end{equation}
+\end{lstlisting}
+
+\begin{equation}\label{eq:someequation}
+\sqrt[n]{1+x+x^2+x^3+\dots+x^n}
+\end{equation}
+
+\item Unnumbered equation:
+
+\begin{lstlisting}
+\begin{equation*}
+\frac{n!}{k!(n-k)!} = \binom{n}{k}
+\end{equation*}
+\end{lstlisting}
+
+\begin{equation*}
+\frac{n!}{k!(n-k)!} = \binom{n}{k}
+\end{equation*}
+\end{enumerate}

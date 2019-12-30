@@ -1,0 +1,53 @@
+%%-------------------------------------------------------------
+\def\iscodiretor{0}
+\def\isfamousquote{1}
+\def\isdedication{1}
+\newcommand{\ThankThesiX}{This document make use of the latex template \textit{ThesiX}, originally made by I. Lombardero and available at https://github.com/ilomdez/ThesiX.}
+
+%%-------------------------------------------------------------
+\newcommand{\thesisauthor}{Iv\'{a}n Lombardero Hern\'{a}ndez}
+\newcommand{\authordegree}{Graduado en Ciencias F\'{i}sicas}
+\newcommand{\university}{UNIVERSIDAD POLIT\'{E}CNICA DE MADRID}
+\newcommand{\school}{ESCUELA T\'{E}CNICA SUPERIOR DE INGENIEROS DE TELECOMUNICACI\'{O}N}
+\newcommand{\departament}{Departamento de Electrónica Física, Ingeniería Eléctrica y Física Aplicada}
+\newcommand{\institute}{INSTITUTO DE ENERG\'{I}A SOLAR}
+\newcommand{\thetitle}{ThesiX: latex template for high-quality document formatting with special emphasis on thesis manuscripts - V1.0}
+\newcommand{\publicationyear}{\the\year}
+\newcommand{\thesisdirector}{Director Name}
+\newcommand{\thesisdirectortitle}{Director Degree}
+\newcommand{\thesiscodirector}{CoDirector Name}
+\newcommand{\thesiscodirectortitle}{CoDirector Degree}
+
+\newcommand{\blankpage}{\clearpage\mbox{}\newpage}
+\newcommand{\pdfauthor}{\thesisauthor}
+%%-------------------------------------------------------------
+\newlength{\currentparskip}
+\newenvironment{chapter_resume}% environment name 
+{%
+  \vspace{1cm}  
+  \centering
+      
+  \setlength{\currentparskip}{\parskip}% save the value
+  \begin{minipage}{0.65\textwidth}\setlength{\parindent}{0.5cm}
+  \begin{itshape}
+}% 
+{\end{itshape}\end{minipage}\vspace*{\fill}\newpage}% end code
+%-------------------------------------------------------------
+\newenvironment{project}[4]{
+\begin{itemize}[align=left, leftmargin=10mm, labelsep=1mm, labelwidth=2mm, itemindent=0pt]
+	%\setlength{\itemindent}{-0.3in}
+ 	\item[\textbf{Title:}] #1
+ 	\item[\textbf{P.I:}] #2
+ 	\item[\textbf{Funding:}] #3
+ 	\item[\textbf{Duration:}] #4
+\end{itemize} 
+}
+{\vspace{.5cm}}
+
+%---------------------------------------------------------------
+\newlength{\thicktopline}
+\setlength{\thicktopline}{0.1em}
+\newlength{\thickbottomline}
+\setlength{\thickbottomline}{0.1em}
+\newlength{\tablerowheight}
+\setlength{\tablerowheight}{-1em}

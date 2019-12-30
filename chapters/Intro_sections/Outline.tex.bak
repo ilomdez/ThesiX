@@ -1,0 +1,12 @@
+\section{Thesis outline} % Dar más detalles
+This manual explains every step from the installation to the compilation of the \LaTeX{} template including the use of figures, lists, acronyms and many other useful elements to use in the course of any manuscript redaction. \ThesiX{} is outline as follows:
+\begin{itemize}
+	\item \cha\,\ref{ch:Intro}, \textit{\nameref{ch:Intro}}, reviews .
+	\item Chapter 2 reviews .
+	\item Chapter 3 analyses zed.
+	\item Chapter 4  the simulations.
+	\item Chapter 5 analysed.
+	\item Chapter 6 summarizes work.
+	\item Appendix A thesis.
+	\item Appendix B gives .  
+\end{itemize}

@@ -1,0 +1,26 @@
+\chapter*{Bibliography}\markboth{Bibliography}{}
+\addcontentsline{toc}{chapter}{Bibliography}
+%\setbool{bbx:alpha}{true}
+%\newrefcontext[sorting=nyt]
+%\newrefcontext[sorting=nty]
+%\raggedright
+%\justify
+\printbibliography[heading=none] %secbib]
+%[heading=bibintoc]
+%
+\chapter*{Publications}\label{ch:Publications}
+%\newrefcontext[sorting=none,resetnumbers]
+\markboth{Publications}{}
+\addcontentsline{toc}{chapter}{Publications}
+\begin{refsection}[C:/Users/ilh/Documents/BibTex/Publications.bib]
+\nocite{*}
+%\setbool{bbx:alpha}{false}
+\newrefcontext[sorting=ydnt]
+\printbibliography[env=bibliographyNUM, heading=secbib, title=Journal Publications, type=article, resetnumbers=1]
+\end{refsection}
+\begin{refsection}[C:/Users/ilh/Documents/BibTex/Publications.bib]
+\nocite{*}
+%\setbool{bbx:alpha}{false}
+\newrefcontext[sorting=ydnt]
+\printbibliography[env=bibliographyNUM, heading=secbib, title=Conference Publications, type=inproceedings]
+\end{refsection}
