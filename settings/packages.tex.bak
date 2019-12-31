@@ -38,6 +38,12 @@
 %\usepackage{xparse} %newcommand and newenvironment with multiple optional arguments
 \usepackage{verbatim}
 \usepackage{listings}
+\lstset{
+  basicstyle=\ttfamily,
+  columns=fullflexible,
+  frame=single,
+  breaklines=true
+}
 \usepackage{pdfpages}
 
 
@@ -73,11 +79,12 @@
 \newcommand{\itnameref}[1]{\textit{\nameref{#1}}} % reference section name in italics
 \newcommand{\quitnameref}[1]{``\textit{\nameref{#1}}''} % reference section name in italics and quotation mars
 \usepackage{tocbibind}
-\usepackage[toc, acronym,  section=chapter, automake=immediate]{glossaries}  %sort=def hace que super no pueda separar por grupos de palabras
+\usepackage[toc, acronym, nopostdot, section=chapter, automake=immediate]{glossaries}  %sort=def hace que super no pueda separar por grupos de palabras
 % sanitizesort=false hace que pase del \textit{•} y cosas de esas y organice directamente por lo que ve dentro aunque según he leido ralentiza bastante - guia page 15
 \makeglossaries
-\usepackage[style=alphabetic, backend=biber, sorting=nyt, defernumbers=true, maxbibnames=99]{biblatex}
-\addbibresource{C:/Users/ilh/Documents/Bibtex/ThesisRef.bib}
+\usepackage[style=alphabetic, backend=biber, sortcites=true, sorting=ynt, defernumbers=true, maxbibnames=99]{biblatex}
+\addbibresource{./bibliography/ThesisRef.bib}
+%\assignrefcontextentries[]{*}
 %\usepackage[hyphenbreaks]{breakurl}
 %\usepackage{csquotes}
 %
@@ -113,70 +120,37 @@
 \usepackage{subcaption}
 \captionsetup{labelfont=bf,justification=justified,font=footnotesize}
 %\usepackage{wrapfig}
-%\DeclareCaptionLabelFormat{ProcessNum}{#2)} % It works, but does the same as the already defined package brace
 \graphicspath{
 {./images/}
 {./images/Title/}
 {./images/Cover/}
 {./images/Intro/}
-{./images/DN/}
-	{./images/DN/DN_Review/}
-	{./images/DN/GaNAsSb/}
-	{./images/DN/GaInNAs/}
-	{./images/DN/GaInNAsSb/}
-	{./images/DN/Comparison/}
-{./images/MJ/}
-	{./images/MJ/MJ_1J/}
-	{./images/MJ/MJ_2J/}
-	{./images/MJ/MJ_4J/}
-	{./images/MJ/MS_process/}
-	{./images/MJ/MS_process/Compressed/}
-	{./images/MJ/MS/}
-{./images/Ge/}
-	{./images/Ge/FCA/}
-	{./images/Ge/Sims/}
-	{./images/Ge/Thinning/}
-	{./images/Ge/SolarCells/}
-	{./images/Ge/UltraThinnedSC/}
-{./images/NewArch/}
-	{./images/NewArch/Gph/}
-	{./images/NewArch/AuVsPd/}
-	{./images/NewArch/Alchemi/}
-	{./images/NewArch/FhG/}
-	{./images/NewArch/Leak/}
-{./images/Distributer/}
-{./images/Atlas/}
 }
 \usepackage{svg}
 %\setsvg{inkscape={C:/"Program Files"/Inkscape/inkscape.exe -z -D}}
 %\usepackage[inkscapeexe=C:/Program~Files/Inkscape/inscape.exe]{svg}
 \svgpath{{./images/}{./images/cover/}{./images/chapter1/}{./images/chapter2/}{./images/chapter3/}{./images/chapter4/}{./images/chapter5/}{./images/title/}}
-
 %\def\eattif#1.tif{#1}
 %\DeclareGraphicsRule{.tif}{png}{.png}{`convert #1 \eattif#1-tif-converted-to.png }
 \usepackage{epstopdf}
 \epstopdfDeclareGraphicsRule{.tif}{png}{.png}{convert #1 \OutputFile}
 \AppendGraphicsExtensions{.tif}
+
+
 %%-------------------------------------------------------------
 % TABLES
 \usepackage{tabularx}
-\renewcommand\tabularxcolumn[1]{m{#1}}% for vertical centering text in X column - Not working always somehow
-\newcolumntype{Y}{>{\centering\arraybackslash}X} % same as X but horizontally allinged
-%\newcolumntype{M}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}X}
-%\newcolumntype{N}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}Y}
-\newcolumntype{M}{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{.5cm}}
 \usepackage{makecell} %group words
 \usepackage{booktabs}
-
 \usepackage{array}
-\newcolumntype{n}{>{\centering\arraybackslash}m} % same as m but horizontally allinged
 \usepackage{arydshln} % dash lines
-%\renewcommand{\arraystretch}{0.5}
-%\usepackage{cellspace} % It is supossed to fix a minimumspace in tables, not working for some reason
-%\setlength\cellspacetoplimit{5pt}
-%\setlength\cellspacebottomlimit{5pt}
+\renewcommand\tabularxcolumn[1]{m{#1}}% for vertical centering text in X column - Not working always somehow
+\newcolumntype{Y}{>{\centering\arraybackslash}X} % same as X but horizontally allinged
+\newcolumntype{M}{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{.5cm}}
+%\newcolumntype{N}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}Y}
+\newcolumntype{n}{>{\centering\arraybackslash}m} % same as m but horizontally allinged
 %%------------------------------------------------------------
+% Force Words Htphenation
 \hyphenation{
 Ga-In-N-As-Sb
-GaInP-GaAs-Ge
 }

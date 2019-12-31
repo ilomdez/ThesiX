@@ -2,41 +2,61 @@
 \begin{enumerate}
   \item Cita estándar:
   
-  \verb=\cite{Aho2015b}= $\rightarrow$  \cite{Aho2015b}\\
+  \verb=\cite{Hovel1997b}= $\rightarrow$  \cite{Hovel1997b}
+  
+  \verb=\cite{Rau2007,King2011}= $\rightarrow$  \cite{King2011,Rau2007}\\
   
   \item Cita comentada:
   
-  \verb=\parencite[e.g.][page 300]{Hovel1997b}= $\rightarrow$ \parencite[e.g.][page 300]{Hovel1997b}
+  \verb=\parencite[e.g.][page 300]{Miller2012}= $\rightarrow$ \parencite[e.g.][page 300]{Miller2012}
 \end{enumerate}
 
 \section{References}\label{sec:Elements_refs}
 
 \begin{enumerate}
-  \item Referencia a figura:
+  \item Figure reference:
   
-  \verb=\ref{fig:x svgsatement}= $\rightarrow$ \ref{fig:x svgsatement}
+  \verb=\ref{fig:example}= $\rightarrow$ \ref{fig:example}
   
-  \item Referencia a tabla:
+  \verb=\ref{fig:triple}= $\rightarrow$ \ref{fig:triple}\\
   
-  \verb=\ref{tab:tablestatement}= $\rightarrow$ \ref{tab:tablestatement}
+  \item Subfigure reference:
+  
+  \verb=\ref{fig:triple_x}= $\rightarrow$ \ref{fig:triple_x}
+  
+  \verb=\subref{fig:triple_x}= $\rightarrow$ \subref{fig:triple_x}\\
+  
+  \item Table reference:
+  
+  \verb=\ref{tab:example}= $\rightarrow$ \ref{tab:example}\\
   
   \item Equation reference:
   
   \verb=\ref{eq:someequation}= $\rightarrow$ \ref{eq:someequation}
   
-  \item Equation reference with parenthesis:
+  \verb=\eqref{eq:someequation}= $\rightarrow$ \eqref{eq:someequation}\\
   
-  \verb=\eqref{eq:someequation}= $\rightarrow$ \eqref{eq:someequation}
+  \item Chapter reference:
+  
+  \verb=\ref{ch:Elements}= $\rightarrow$ \ref{ch:Elements}
+  
+  \verb=\nameref{ch:Elements}= $\rightarrow$ \nameref{ch:Elements}\\
+  
+  \item Section reference:
+  
+  \verb=\ref{sec:Elements_refs}= $\rightarrow$ \ref{sec:Elements_refs}
+  
+  \verb=\nameref{sec:Elements_refs}= $\rightarrow$ \nameref{sec:Elements_refs}\\
 \end{enumerate}
 
 
 \section{Acronyms and symbols}\label{sec:Elements_acrosyms}
 \begin{enumerate}
-  \item Símbolo:
+  \item Symbol:
   
   \verb=\gls{symbol1}= $\rightarrow$ \gls{symbol1}
 
-  \item Acrónimo:
+  \item Acronym:
 
   \verb=\gls{acronym1}= $\rightarrow$ \gls{acronym1}
 \end{enumerate}

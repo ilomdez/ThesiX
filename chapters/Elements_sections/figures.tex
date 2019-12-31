@@ -5,14 +5,49 @@
 %\caption{A svg image example}
 %\label{fig:x cubedvv graph}
 %\end{figure}
+\begin{lstlisting}
+\begin{figure}[h]
+\centering
+\includegraphics[width=.45\textwidth]{Intro_TexMakerConf.png}
+\caption[Resume line]{An example graph}
+\label{fig:example}
+\end{figure}
+\end{lstlisting}
 
 \begin{figure}[h]
 \centering
-\includegraphics[width=.5\textwidth]{Intro_TexMakerConf.png}
+\includegraphics[width=.45\textwidth]{Intro_TexMakerConf.png}
 \caption[Resume line]{An example graph}
-\label{fig:x cubed graph}
+\label{fig:example}
 \end{figure}
 
+\begin{lstlisting}
+\begin{figure}[h]
+    \centering
+    \begin{subfigure}[b]{.3\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{Intro_TexMakerConf.png}
+        \caption{$y=x$}
+        \label{fig:triple_x}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.3\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{Intro_TexMakerConf.png}
+        \caption{$y=3sinx$}
+        \label{fig:triple_3sinx}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.3\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{Intro_TexMakerConf.png}
+        \caption{$y=5/x$}
+        \label{fig:triple_5overx}
+    \end{subfigure}
+    \caption[Resume line]{Three simple graphs}
+    \label{fig:triple}
+\end{figure}
+\end{lstlisting}
 
 \begin{figure}[h]
     \centering
@@ -20,23 +55,22 @@
         \centering
         \includegraphics[width=\textwidth]{Intro_TexMakerConf.png}
         \caption{$y=x$}
-        \label{fig:x}
+        \label{fig:triple_x}
     \end{subfigure}
     \hfill
     \begin{subfigure}[b]{0.3\textwidth}
         \centering
         \includegraphics[width=\textwidth]{Intro_TexMakerConf.png}
         \caption{$y=3sinx$}
-        \label{fig:3sinx}
+        \label{fig:triple_3sinx}
     \end{subfigure}
     \hfill
     \begin{subfigure}[b]{0.3\textwidth}
         \centering
         \includegraphics[width=\textwidth]{Intro_TexMakerConf.png}
         \caption{$y=5/x$}
-        \label{fig:5overx}
+        \label{fig:triple_5overx}
     \end{subfigure}
     \caption[Resume line]{Three simple graphs}
-    \label{fig:three_graphs}
+    \label{fig:triple}
 \end{figure}
-in \ref{fig:x cubed graph} 

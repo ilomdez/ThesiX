@@ -38,6 +38,12 @@
 %\usepackage{xparse} %newcommand and newenvironment with multiple optional arguments
 \usepackage{verbatim}
 \usepackage{listings}
+\lstset{
+  basicstyle=\ttfamily,
+  columns=fullflexible,
+  frame=single,
+  breaklines=true
+}
 \usepackage{pdfpages}
 
 
@@ -76,8 +82,9 @@
 \usepackage[toc, acronym, nopostdot, section=chapter, automake=immediate]{glossaries}  %sort=def hace que super no pueda separar por grupos de palabras
 % sanitizesort=false hace que pase del \textit{•} y cosas de esas y organice directamente por lo que ve dentro aunque según he leido ralentiza bastante - guia page 15
 \makeglossaries
-\usepackage[style=alphabetic, backend=biber, sorting=nyt, defernumbers=true, maxbibnames=99]{biblatex}
-\addbibresource{C:/Users/ilh/Documents/Bibtex/ThesisRef.bib}
+\usepackage[style=alphabetic, backend=biber, sortcites=true, sorting=ynt, defernumbers=true, maxbibnames=99]{biblatex}
+\addbibresource{./bibliography/ThesisRef.bib}
+%\assignrefcontextentries[]{*}
 %\usepackage[hyphenbreaks]{breakurl}
 %\usepackage{csquotes}
 %
